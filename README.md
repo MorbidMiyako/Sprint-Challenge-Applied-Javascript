@@ -30,13 +30,23 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. What is the DOM?
 
+  The Document Object Method is a method to access and update the different document objects efficiently using JS
+
 2. What is an event?
+
+  In the context of a webpage an event is an action that a webpage register, JS can be used to check for such actions to be executed, and in turn execute a function.
 
 3. What is an event listener?
 
+  The JS method that listens for an event, see question 2
+
 4. Why would we convert a NodeList into an Array?
 
+  A nodelist has a limited of methods available to it, sometimes you want to use array methods too hence requiring one to use array.from to create an array out of a nodelist 
+
 5. What is a component?
+
+  A component in the context of a webpage is a filepackage that contains for instance the header, and can thus be used for several webpages.
 
 ### Git Set up
 
