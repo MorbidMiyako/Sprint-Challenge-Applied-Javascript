@@ -47,27 +47,22 @@ axios.get("https://lambda-times-backend.herokuapp.com/articles")
   .then(response => {
 
     response.data.articles.javascript.forEach((article) => {
-      console.log(article)
       document.querySelector(".cards-container").append(card(article))
     })
 
     response.data.articles.bootstrap.forEach((article) => {
-      console.log(article)
       document.querySelector(".cards-container").append(card(article))
     })
 
     response.data.articles.technology.forEach((article) => {
-      console.log(article)
       document.querySelector(".cards-container").append(card(article))
     })
 
     response.data.articles.jquery.forEach((article) => {
-      console.log(article)
       document.querySelector(".cards-container").append(card(article))
     })
 
     response.data.articles.node.forEach((article) => {
-      console.log(article)
       document.querySelector(".cards-container").append(card(article))
     })
 
